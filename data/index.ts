@@ -1,24 +1,24 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Credentials", link: "#credentials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I bridge the gap between technical complexity and business needs through proactive communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full brightness-[0.5] opacity-80",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "https://ik.imagekit.io/mohammedali/1.avif",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Ready to collaborate with teams across the globe",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Transforming raw datasets into smart solutions.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,12 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently mastering Scalable Data Pipelines and Model Deployment",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "02.jpg",
     spareImg: "/grid.svg",
   },
   {
@@ -72,132 +72,132 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "GlucoTrack",
+    des: "A native Android application designed to simulate continuous glucose monitoring systems for health tracking.",
+    img: "https://ik.imagekit.io/mohammedali/gluco.png",
+    iconLists: ["/kotlin.jfif", "/androidStudio.png", "/roomdb.jfif", "/sdk.jfif", "/ble.png"],
+    link: "https://glucotrack.cgm.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Drowsy Driver Detection System",
+    des: "A computer vision and machine learning project that monitors driver alertness in real-time.",
+    img: "/drowsy.jpg",
+    iconLists: ["/py.jfif", "/cv.png", "/num.png", "/pandas.png", "/ml.png"],
+    link: "https://github.com/MohdAli21/drowsy-driver-detection-system",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Employee Attrition Prediction",
+    des: "An HR analytics tool using machine learning to identify factors behind employee turnover.",
+    img: "https://ik.imagekit.io/mohammedali/hr.png",
+    iconLists: ["/py.jfif", "/skitl.png", "/pandas.png", "/sea.jfif", "/co.png"],
+    link: "https://github.com/MohdAli21/employee-attrition-prediction",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Cyclistic Bike-Share Analysis",
+    des: "A comprehensive data analytics capstone project focused on identifying trends in user behavior for marketing strategy.",
+    img: "https://ik.imagekit.io/mohammedali/Cyclistic.jpg",
+    iconLists: ["/py.jfif", "/co.png", "/r.jfif", "/tidy.jfif", "/gg.png"],
+    link: "https://github.com/MohdAli21/cyclistic",
   },
 ];
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "GLOBAL CERTIFICATION: SAP ANALYTICS CLOUD\n\nOfficially certified in SAP Analytics Cloud (SAC), specializing in the design of complex data models and high-impact business stories. Expert in transforming raw enterprise data into automated planning and predictive insights through the SAP Business Technology Platform.",
+    name: "SAP Certified Associate",
+    title: "Data Analyst - SAC Specialization",
+    photo: "https://ik.imagekit.io/mohammedali/sap.jfif",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "DATA SCIENCE INTERNSHIP — PERSEVEX\n\nSuccessfully engineered end-to-end Machine Learning pipelines, focusing on Computer Vision and Predictive HR Analytics. Delivered high-accuracy models for real-time detection and business intelligence, bridging the gap between theoretical research and production-ready deployment.",
+    name: "Persevex Research Team",
+    title: "Data Science Intern",
+    photo: "https://ik.imagekit.io/mohammedali/per.jfif",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "SAP HANA CLOUD & DATA MODELING\n\nProficient in architecting robust data infrastructures using SAP HANA Cloud. Skilled in data provisioning, cloud-native data modeling, and leveraging the SAP Business Technology Platform (BTP) to build scalable, high-performance analytical environments.",
+    name: "SAP Technology Consultant",
+    title: "HANA Cloud Data Modeler",
+    photo: "https://ik.imagekit.io/mohammedali/sap.jfif"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "GOOGLE DATA ANALYTICS PROFESSIONAL\n\nGoogle-certified professional trained in the full data lifecycle—from stakeholder alignment to technical execution. Experienced in utilizing SQL, R, and Tableau to drive strategic decision-making and project management for large-scale data initiatives.",
+    name: "Google Certified Professional",
+    title: "Strategic Data & Business Analyst",
+    photo: "https://ik.imagekit.io/mohammedali/google.png"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+    quote: "TECHNICAL MENTORSHIP & STEM EDUCATION\n\nFounder of a specialized tutoring service for Intermediate and Class 10th students. Expert at deconstructing complex Mathematical and Physics concepts into intuitive, logical frameworks, fostering a 100% technical clarity rate for aspiring students.",
+    name: "STEM Mentorship Program",
+    title: "Founder & Lead Educator",
+    photo: "https://ik.imagekit.io/mohammedali/stem.avif"
+  }
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+// export const companies = [
+//   {
+//     id: 1,
+//     name: "cloudinary",
+//     img: "/cloud.svg",
+//     nameImg: "/cloudName.svg",
+//   },
+//   {
+//     id: 2,
+//     name: "appwrite",
+//     img: "/app.svg",
+//     nameImg: "/appName.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "HOSTINGER",
+//     img: "/host.svg",
+//     nameImg: "/hostName.svg",
+//   },
+//   {
+//     id: 4,
+//     name: "stream",
+//     img: "/s.svg",
+//     nameImg: "/streamName.svg",
+//   },
+//   {
+//     id: 5,
+//     name: "docker.",
+//     img: "/dock.svg",
+//     nameImg: "/dockerName.svg",
+//   },
+// ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Data Science Intern",
+    desc: "Engineered end-to-end Machine Learning pipelines at Persevex, specializing in predictive classification and computer vision infrastructure to bridge the gap between research and deployment.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/certificate.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Founder & Lead STEM Educator",
+    desc: "Established a private tutoring operation for Intermediate and Class 10th students. Architected logical frameworks to deconstruct complex Mathematics and Physics systems, mentoring future engineers.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/educator.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Computer Vision Systems Engineer",
+    desc: "Architected a real-time Drowsy Driver Detection system utilizing Python and OpenCV. Built a live frame-by-frame monitoring pipeline processing face/eye coordinates through Haar Cascade Classifiers.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Enterprise Analytics Developer",
+    desc: "Developed predictive business models, including an Employee Attrition classification engine using Scikit-Learn, and integrated multi-source datasets to deliver automated strategic reporting layouts.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/developer.svg",
   },
 ];
 
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/MohdAli21",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wha.svg",
+    link: "https://wa.me/918465957767",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/mirmohammedali-/",
   },
 ];
